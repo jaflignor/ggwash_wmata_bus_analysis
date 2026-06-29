@@ -1,7 +1,5 @@
 # WMATA Better Bus Network Redesign Analysis — README
 
-Article Link: 
-
 This README documents the data inputs, processing pipeline, and output files produced for an analysis of WMATA's 2025 Better Bus Network Redesign.
 
 ## Data Inputs
@@ -28,7 +26,7 @@ The final output of the script can be seen in the formatted Excel file attached 
 
 ## Usage Notes
 
-- The script can be run at the corridor or route level, though some statistics (e.g., headway) are currently implemented only at the route level.
-- It can also be run across weekdays or weekends, though cited results only reference weekday output.
+- The script can be run at the **corridor** or **route** level, though some statistics (e.g., headway) are currently implemented only at the route level.
+- It can also be run across **weekdays** or **weekends**, though cited results only reference weekday output.
 - A processed GTFS data build is exported to `/intermediate`.
 - The final output in `/export` only includes routes/corridors with a matched pre and post counterpart — anything dropped or newly added with no match falls out of the analysis.

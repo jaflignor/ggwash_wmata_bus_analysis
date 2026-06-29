@@ -1,0 +1,249 @@
+pre_corridor_id,post_corridor_id,metric,pre_value,post_value
+11 St / New Hampshire,11 St / New Hampshire,Mean Service Span (Minutes),1166.875,1154.676923076923
+14th St,14th St,Mean Service Span (Minutes),1523.3172413793104,1528.8923076923077
+16th St,16th St,Mean Service Span (Minutes),1518.2689655172414,1508.0
+18th St NE,18th St NE,Mean Service Span (Minutes),1228.6875,1127.9846153846154
+5th St NW,5th St NW,Mean Service Span (Minutes),1147.7916666666667,1154.676923076923
+Alabama Ave,Alabama Ave,Mean Service Span (Minutes),1463.2689655172414,1506.0
+Bladensburg,Bladensburg,Mean Service Span (Minutes),1497.3655172413794,1525.0
+Connecticut Ave,Connecticut Ave,Mean Service Span (Minutes),1314.7379310344827,1281.123076923077
+Foggy Bottom / Mt Pleasant / Brookland,Foggy Bottom / Mt Pleasant / Brookland,Mean Service Span (Minutes),1508.3310344827587,1271.7076923076922
+Georgetown / LeDroit Park,Georgetown / LeDroit Park,Mean Service Span (Minutes),1123.6875,1124.4923076923078
+Georgia Ave,Georgia Ave,Mean Service Span (Minutes),1517.6275862068965,1523.0
+H St / Benning Rd / D St,H St / Benning Rd / D St,Mean Service Span (Minutes),1456.7448275862068,1514.0
+Irving / Michigan,Irving / Michigan,Mean Service Span (Minutes),1469.4827586206898,1490.8153846153846
+K St / Ivy City,K St / Ivy City,Mean Service Span (Minutes),1228.6875,1250.123076923077
+Kansas / Eastern,Kansas / Eastern,Mean Service Span (Minutes),798.0,798.0
+MLK Ave / 4 St SE,MLK Ave / 4 St SE,Mean Service Span (Minutes),1486.3793103448277,1470.8
+MLK Ave / Bellevue,MLK Ave / Bellevue,Mean Service Span (Minutes),1486.3793103448277,1494.0
+MacArthur Blvd,MacArthur Blvd,Mean Service Span (Minutes),1244.875,1175.5692307692307
+Maryland Ave,Maryland Ave,Mean Service Span (Minutes),994.4791666666666,994.0923076923077
+Massachusetts Ave,Massachusetts Ave,Mean Service Span (Minutes),1131.8125,1174.9538461538461
+Minnesota Ave / Eastern,Minnesota Ave / Eastern,Mean Service Span (Minutes),1467.6413793103447,1509.0
+Minnesota Ave / Pennsylvania Ave,Minnesota Ave / Pennsylvania Ave,Mean Service Span (Minutes),1320.9791666666667,1331.446153846154
+N Capitol St,N Capitol St,Mean Service Span (Minutes),1508.4344827586208,1506.8461538461538
+Naylor Rd - Shepherd Pkwy,Naylor Rd - Shepherd Pkwy,Mean Service Span (Minutes),1282.4827586206898,1184.6461538461538
+Pennsylvania Ave,Pennsylvania Ave,Mean Service Span (Minutes),1460.8,1553.4307692307693
+Rhode Island Ave / NE,Rhode Island Ave / NE,Mean Service Span (Minutes),1310.193103448276,1176.9384615384615
+Skyland / Barry Farm,Skyland / Barry Farm,Mean Service Span (Minutes),1123.5208333333333,1097.0923076923077
+Southern Av / Anacostia,Southern Av / Anacostia,Mean Service Span (Minutes),1222.6275862068965,1120.323076923077
+U St,U St,Mean Service Span (Minutes),1494.3310344827587,1533.0
+Upper NW,Upper NW,Mean Service Span (Minutes),1165.0416666666667,1177.6615384615384
+Wisconsin Ave,Wisconsin Ave,Mean Service Span (Minutes),1523.3655172413794,1509.0
+11 St / New Hampshire,11 St / New Hampshire,Median Speed (MPH),8.267624665775969,8.083848094159098
+14th St,14th St,Median Speed (MPH),7.978599315136343,8.182496794464647
+16th St,16th St,Median Speed (MPH),11.014540959915168,11.02872357020213
+18th St NE,18th St NE,Median Speed (MPH),8.73107893652456,9.686810114393941
+5th St NW,5th St NW,Median Speed (MPH),8.671432486956476,9.7810690702272
+Alabama Ave,Alabama Ave,Median Speed (MPH),10.487202089087374,10.199371227185717
+Bladensburg,Bladensburg,Median Speed (MPH),9.302148079877716,9.219478268542495
+Connecticut Ave,Connecticut Ave,Median Speed (MPH),7.964364334316285,9.280831504580744
+Foggy Bottom / Mt Pleasant / Brookland,Foggy Bottom / Mt Pleasant / Brookland,Median Speed (MPH),8.309136416837513,7.389246391543395
+Georgetown / LeDroit Park,Georgetown / LeDroit Park,Median Speed (MPH),7.157104108144408,7.496866589082246
+Georgia Ave,Georgia Ave,Median Speed (MPH),8.758594392787622,8.806304468505651
+H St / Benning Rd / D St,H St / Benning Rd / D St,Median Speed (MPH),8.72229478536067,9.558179270717186
+Irving / Michigan,Irving / Michigan,Median Speed (MPH),9.969051849096545,9.548752203653333
+K St / Ivy City,K St / Ivy City,Median Speed (MPH),8.228191642375768,8.739086677814068
+Kansas / Eastern,Kansas / Eastern,Median Speed (MPH),9.546905735634503,9.479482271545946
+MLK Ave / 4 St SE,MLK Ave / 4 St SE,Median Speed (MPH),11.099320536955618,11.109917984635137
+MLK Ave / Bellevue,MLK Ave / Bellevue,Median Speed (MPH),11.491182673948186,11.214393587626521
+MacArthur Blvd,MacArthur Blvd,Median Speed (MPH),8.455869630387866,8.691257735505987
+Maryland Ave,Maryland Ave,Median Speed (MPH),9.027601945026431,9.345770424093224
+Massachusetts Ave,Massachusetts Ave,Median Speed (MPH),10.106548506043831,9.628673852980803
+Minnesota Ave / Eastern,Minnesota Ave / Eastern,Median Speed (MPH),10.215049981218748,10.15999135867616
+Minnesota Ave / Pennsylvania Ave,Minnesota Ave / Pennsylvania Ave,Median Speed (MPH),11.372500510475946,10.829437817690135
+N Capitol St,N Capitol St,Median Speed (MPH),8.135905685239404,8.338172661996445
+Naylor Rd - Shepherd Pkwy,Naylor Rd - Shepherd Pkwy,Median Speed (MPH),11.508694450623457,10.072112510030857
+Pennsylvania Ave,Pennsylvania Ave,Median Speed (MPH),9.855983616841048,10.694218718794131
+Rhode Island Ave / NE,Rhode Island Ave / NE,Median Speed (MPH),8.167951211739084,9.129428220544574
+Skyland / Barry Farm,Skyland / Barry Farm,Median Speed (MPH),9.850346758290916,10.499241830068001
+Southern Av / Anacostia,Southern Av / Anacostia,Median Speed (MPH),10.455975612984382,11.831504568644734
+U St,U St,Median Speed (MPH),8.8709931272901,8.375055231897395
+Upper NW,Upper NW,Median Speed (MPH),11.467334695743936,11.050129632058486
+Wisconsin Ave,Wisconsin Ave,Median Speed (MPH),7.722175849956774,7.83830790018145
+11 St / New Hampshire,11 St / New Hampshire,Mean Trips,207.07638888888889,120.73846153846154
+14th St,14th St,Mean Trips,382.17931034482757,377.10769230769233
+16th St,16th St,Mean Trips,407.8,411.96923076923076
+18th St NE,18th St NE,Mean Trips,272.1458333333333,87.35384615384615
+5th St NW,5th St NW,Mean Trips,109.07638888888889,124.8923076923077
+Alabama Ave,Alabama Ave,Mean Trips,590.6206896551724,304.83076923076925
+Bladensburg,Bladensburg,Mean Trips,226.57931034482758,224.07692307692307
+Connecticut Ave,Connecticut Ave,Mean Trips,231.4551724137931,130.8923076923077
+Foggy Bottom / Mt Pleasant / Brookland,Foggy Bottom / Mt Pleasant / Brookland,Mean Trips,542.0689655172414,340.83076923076925
+Georgetown / LeDroit Park,Georgetown / LeDroit Park,Mean Trips,76.66666666666667,76.61538461538461
+Georgia Ave,Georgia Ave,Mean Trips,456.2758620689655,388.4923076923077
+H St / Benning Rd / D St,H St / Benning Rd / D St,Mean Trips,429.6551724137931,461.5076923076923
+Irving / Michigan,Irving / Michigan,Mean Trips,325.4413793103448,285.44615384615383
+K St / Ivy City,K St / Ivy City,Mean Trips,189.4375,108.8923076923077
+Kansas / Eastern,Kansas / Eastern,Mean Trips,43.0,51.0
+MLK Ave / 4 St SE,MLK Ave / 4 St SE,Mean Trips,429.93793103448274,321.2769230769231
+MLK Ave / Bellevue,MLK Ave / Bellevue,Mean Trips,562.0413793103448,253.6153846153846
+MacArthur Blvd,MacArthur Blvd,Mean Trips,107.38194444444444,97.32307692307693
+Maryland Ave,Maryland Ave,Mean Trips,75.70833333333333,75.56923076923077
+Massachusetts Ave,Massachusetts Ave,Mean Trips,263.875,189.7846153846154
+Minnesota Ave / Eastern,Minnesota Ave / Eastern,Mean Trips,561.3172413793103,511.84615384615387
+Minnesota Ave / Pennsylvania Ave,Minnesota Ave / Pennsylvania Ave,Mean Trips,196.01388888888889,131.8153846153846
+N Capitol St,N Capitol St,Mean Trips,316.82068965517243,175.86153846153846
+Naylor Rd - Shepherd Pkwy,Naylor Rd - Shepherd Pkwy,Mean Trips,300.3241379310345,114.8923076923077
+Pennsylvania Ave,Pennsylvania Ave,Mean Trips,261.17241379310343,272.7846153846154
+Rhode Island Ave / NE,Rhode Island Ave / NE,Mean Trips,236.61379310344827,214.66153846153847
+Skyland / Barry Farm,Skyland / Barry Farm,Mean Trips,97.875,133.6769230769231
+Southern Av / Anacostia,Southern Av / Anacostia,Mean Trips,200.16551724137932,103.93846153846154
+U St,U St,Mean Trips,409.1034482758621,351.1384615384615
+Upper NW,Upper NW,Mean Trips,219.61111111111111,212.33846153846153
+Wisconsin Ave,Wisconsin Ave,Mean Trips,313.6965517241379,313.87692307692305
+11 St / New Hampshire,11 St / New Hampshire,Median Trips,212.0,122.0
+14th St,14th St,Median Trips,389.0,384.0
+16th St,16th St,Median Trips,414.0,417.0
+18th St NE,18th St NE,Median Trips,274.0,88.0
+5th St NW,5th St NW,Median Trips,110.0,126.0
+Alabama Ave,Alabama Ave,Median Trips,602.0,307.0
+Bladensburg,Bladensburg,Median Trips,229.0,225.0
+Connecticut Ave,Connecticut Ave,Median Trips,235.0,132.0
+Foggy Bottom / Mt Pleasant / Brookland,Foggy Bottom / Mt Pleasant / Brookland,Median Trips,550.0,346.0
+Georgetown / LeDroit Park,Georgetown / LeDroit Park,Median Trips,77.0,77.0
+Georgia Ave,Georgia Ave,Median Trips,461.0,392.0
+H St / Benning Rd / D St,H St / Benning Rd / D St,Median Trips,440.0,471.0
+Irving / Michigan,Irving / Michigan,Median Trips,330.0,288.0
+K St / Ivy City,K St / Ivy City,Median Trips,190.0,109.0
+Kansas / Eastern,Kansas / Eastern,Median Trips,43.0,51.0
+MLK Ave / 4 St SE,MLK Ave / 4 St SE,Median Trips,438.0,322.0
+MLK Ave / Bellevue,MLK Ave / Bellevue,Median Trips,573.0,255.0
+MacArthur Blvd,MacArthur Blvd,Median Trips,110.0,100.0
+Maryland Ave,Maryland Ave,Median Trips,77.0,77.0
+Massachusetts Ave,Massachusetts Ave,Median Trips,270.0,193.0
+Minnesota Ave / Eastern,Minnesota Ave / Eastern,Median Trips,572.0,518.0
+Minnesota Ave / Pennsylvania Ave,Minnesota Ave / Pennsylvania Ave,Median Trips,198.0,133.0
+N Capitol St,N Capitol St,Median Trips,321.0,176.0
+Naylor Rd - Shepherd Pkwy,Naylor Rd - Shepherd Pkwy,Median Trips,307.0,117.0
+Pennsylvania Ave,Pennsylvania Ave,Median Trips,264.0,274.0
+Rhode Island Ave / NE,Rhode Island Ave / NE,Median Trips,243.0,218.0
+Skyland / Barry Farm,Skyland / Barry Farm,Median Trips,99.0,134.0
+Southern Av / Anacostia,Southern Av / Anacostia,Median Trips,202.0,104.0
+U St,U St,Median Trips,417.0,353.0
+Upper NW,Upper NW,Median Trips,226.0,218.0
+Wisconsin Ave,Wisconsin Ave,Median Trips,317.0,316.0
+11 St / New Hampshire,11 St / New Hampshire,Total Ridership,37197.0,19396.0
+14th St,14th St,Total Ridership,118088.0,95723.0
+16th St,16th St,Total Ridership,93073.0,72618.0
+18th St NE,18th St NE,Total Ridership,37369.0,12888.0
+5th St NW,5th St NW,Total Ridership,18131.0,12462.0
+Alabama Ave,Alabama Ave,Total Ridership,119566.0,67526.0
+Bladensburg,Bladensburg,Total Ridership,62361.0,36500.0
+Connecticut Ave,Connecticut Ave,Total Ridership,47396.0,20919.0
+Foggy Bottom / Mt Pleasant / Brookland,Foggy Bottom / Mt Pleasant / Brookland,Total Ridership,107788.0,56054.0
+Georgetown / LeDroit Park,Georgetown / LeDroit Park,Total Ridership,9717.0,7563.0
+Georgia Ave,Georgia Ave,Total Ridership,148498.0,116921.0
+H St / Benning Rd / D St,H St / Benning Rd / D St,Total Ridership,115264.0,98141.0
+Irving / Michigan,Irving / Michigan,Total Ridership,49134.0,38818.0
+K St / Ivy City,K St / Ivy City,Total Ridership,29632.0,17657.0
+Kansas / Eastern,Kansas / Eastern,Total Ridership,2889.0,2929.0
+MLK Ave / 4 St SE,MLK Ave / 4 St SE,Total Ridership,82556.0,58608.0
+MLK Ave / Bellevue,MLK Ave / Bellevue,Total Ridership,103478.0,51561.0
+MacArthur Blvd,MacArthur Blvd,Total Ridership,24924.0,12834.0
+Maryland Ave,Maryland Ave,Total Ridership,4770.0,3775.0
+Massachusetts Ave,Massachusetts Ave,Total Ridership,29972.0,25151.0
+Minnesota Ave / Eastern,Minnesota Ave / Eastern,Total Ridership,85803.0,70806.0
+Minnesota Ave / Pennsylvania Ave,Minnesota Ave / Pennsylvania Ave,Total Ridership,18583.0,21737.0
+N Capitol St,N Capitol St,Total Ridership,66471.0,23157.0
+Naylor Rd - Shepherd Pkwy,Naylor Rd - Shepherd Pkwy,Total Ridership,51127.0,13674.0
+Pennsylvania Ave,Pennsylvania Ave,Total Ridership,60621.0,45189.0
+Rhode Island Ave / NE,Rhode Island Ave / NE,Total Ridership,53503.0,28060.0
+Skyland / Barry Farm,Skyland / Barry Farm,Total Ridership,20876.0,13487.0
+Southern Av / Anacostia,Southern Av / Anacostia,Total Ridership,41966.0,13337.0
+U St,U St,Total Ridership,122790.0,102525.0
+Upper NW,Upper NW,Total Ridership,30859.0,23185.0
+Wisconsin Ave,Wisconsin Ave,Total Ridership,84611.0,73066.0
+11 St / New Hampshire,11 St / New Hampshire,Monthly Ridership,5313.857142857143,3232.6666666666665
+14th St,14th St,Monthly Ridership,16869.714285714286,15953.833333333334
+16th St,16th St,Monthly Ridership,13296.142857142857,12103.0
+18th St NE,18th St NE,Monthly Ridership,5338.428571428572,2148.0
+5th St NW,5th St NW,Monthly Ridership,2590.1428571428573,2077.0
+Alabama Ave,Alabama Ave,Monthly Ridership,17080.85714285714,11254.333333333334
+Bladensburg,Bladensburg,Monthly Ridership,8908.714285714286,6083.333333333333
+Connecticut Ave,Connecticut Ave,Monthly Ridership,6770.857142857143,3486.5
+Foggy Bottom / Mt Pleasant / Brookland,Foggy Bottom / Mt Pleasant / Brookland,Monthly Ridership,15398.285714285714,9342.333333333334
+Georgetown / LeDroit Park,Georgetown / LeDroit Park,Monthly Ridership,1388.142857142857,1260.5
+Georgia Ave,Georgia Ave,Monthly Ridership,21214.0,19486.833333333332
+H St / Benning Rd / D St,H St / Benning Rd / D St,Monthly Ridership,16466.285714285714,16356.833333333334
+Irving / Michigan,Irving / Michigan,Monthly Ridership,7019.142857142857,6469.666666666667
+K St / Ivy City,K St / Ivy City,Monthly Ridership,4233.142857142857,2942.8333333333335
+Kansas / Eastern,Kansas / Eastern,Monthly Ridership,412.7142857142857,488.1666666666667
+MLK Ave / 4 St SE,MLK Ave / 4 St SE,Monthly Ridership,11793.714285714286,9768.0
+MLK Ave / Bellevue,MLK Ave / Bellevue,Monthly Ridership,14782.57142857143,8593.5
+MacArthur Blvd,MacArthur Blvd,Monthly Ridership,3560.5714285714284,2139.0
+Maryland Ave,Maryland Ave,Monthly Ridership,681.4285714285714,629.1666666666666
+Massachusetts Ave,Massachusetts Ave,Monthly Ridership,4281.714285714285,4191.833333333333
+Minnesota Ave / Eastern,Minnesota Ave / Eastern,Monthly Ridership,12257.57142857143,11801.0
+Minnesota Ave / Pennsylvania Ave,Minnesota Ave / Pennsylvania Ave,Monthly Ridership,2654.714285714286,3622.8333333333335
+N Capitol St,N Capitol St,Monthly Ridership,9495.857142857143,3859.5
+Naylor Rd - Shepherd Pkwy,Naylor Rd - Shepherd Pkwy,Monthly Ridership,7303.857142857143,2279.0
+Pennsylvania Ave,Pennsylvania Ave,Monthly Ridership,8660.142857142857,7531.5
+Rhode Island Ave / NE,Rhode Island Ave / NE,Monthly Ridership,7643.285714285715,4676.666666666667
+Skyland / Barry Farm,Skyland / Barry Farm,Monthly Ridership,2982.285714285714,2247.8333333333335
+Southern Av / Anacostia,Southern Av / Anacostia,Monthly Ridership,5995.142857142857,2222.8333333333335
+U St,U St,Monthly Ridership,17541.428571428572,17087.5
+Upper NW,Upper NW,Monthly Ridership,4408.428571428572,3864.1666666666665
+Wisconsin Ave,Wisconsin Ave,Monthly Ridership,12087.285714285714,12177.666666666666
+11 St / New Hampshire,11 St / New Hampshire,Unique Stops,146.0,77.0
+14th St,14th St,Unique Stops,123.0,97.0
+16th St,16th St,Unique Stops,131.0,107.0
+18th St NE,18th St NE,Unique Stops,157.0,93.0
+5th St NW,5th St NW,Unique Stops,89.0,45.0
+Alabama Ave,Alabama Ave,Unique Stops,276.0,183.0
+Bladensburg,Bladensburg,Unique Stops,96.0,100.0
+Connecticut Ave,Connecticut Ave,Unique Stops,112.0,66.0
+Foggy Bottom / Mt Pleasant / Brookland,Foggy Bottom / Mt Pleasant / Brookland,Unique Stops,252.0,139.0
+Georgetown / LeDroit Park,Georgetown / LeDroit Park,Unique Stops,59.0,58.0
+Georgia Ave,Georgia Ave,Unique Stops,138.0,107.0
+H St / Benning Rd / D St,H St / Benning Rd / D St,Unique Stops,212.0,175.0
+Irving / Michigan,Irving / Michigan,Unique Stops,161.0,103.0
+K St / Ivy City,K St / Ivy City,Unique Stops,105.0,77.0
+Kansas / Eastern,Kansas / Eastern,Unique Stops,29.0,30.0
+MLK Ave / 4 St SE,MLK Ave / 4 St SE,Unique Stops,176.0,127.0
+MLK Ave / Bellevue,MLK Ave / Bellevue,Unique Stops,211.0,140.0
+MacArthur Blvd,MacArthur Blvd,Unique Stops,152.0,98.0
+Maryland Ave,Maryland Ave,Unique Stops,32.0,34.0
+Massachusetts Ave,Massachusetts Ave,Unique Stops,158.0,185.0
+Minnesota Ave / Eastern,Minnesota Ave / Eastern,Unique Stops,235.0,178.0
+Minnesota Ave / Pennsylvania Ave,Minnesota Ave / Pennsylvania Ave,Unique Stops,93.0,99.0
+N Capitol St,N Capitol St,Unique Stops,176.0,87.0
+Naylor Rd - Shepherd Pkwy,Naylor Rd - Shepherd Pkwy,Unique Stops,258.0,102.0
+Pennsylvania Ave,Pennsylvania Ave,Unique Stops,125.0,119.0
+Rhode Island Ave / NE,Rhode Island Ave / NE,Unique Stops,175.0,161.0
+Skyland / Barry Farm,Skyland / Barry Farm,Unique Stops,88.0,55.0
+Southern Av / Anacostia,Southern Av / Anacostia,Unique Stops,230.0,74.0
+U St,U St,Unique Stops,236.0,201.0
+Upper NW,Upper NW,Unique Stops,220.0,173.0
+Wisconsin Ave,Wisconsin Ave,Unique Stops,90.0,79.0
+11 St / New Hampshire,11 St / New Hampshire,Stops Per Hour,59.015059618355316,58.30489215716285
+14th St,14th St,Stops Per Hour,52.38726714420523,34.02163511722614
+16th St,16th St,Stops Per Hour,51.88019794359039,43.491845440284465
+18th St NE,18th St NE,Stops Per Hour,64.11110300587832,64.58816431730398
+5th St NW,5th St NW,Stops Per Hour,68.96214188060883,72.87074886096777
+Alabama Ave,Alabama Ave,Stops Per Hour,71.21089052386841,61.2369721768928
+Bladensburg,Bladensburg,Stops Per Hour,58.45105672633086,51.37577770302266
+Connecticut Ave,Connecticut Ave,Stops Per Hour,54.796004564098055,64.5214993612746
+Foggy Bottom / Mt Pleasant / Brookland,Foggy Bottom / Mt Pleasant / Brookland,Stops Per Hour,54.77946206592917,44.143046594533814
+Georgetown / LeDroit Park,Georgetown / LeDroit Park,Stops Per Hour,53.424081823131836,50.25154453513509
+Georgia Ave,Georgia Ave,Stops Per Hour,44.03353165538978,41.54624096267926
+H St / Benning Rd / D St,H St / Benning Rd / D St,Stops Per Hour,39.10591372824809,43.243306786617
+Irving / Michigan,Irving / Michigan,Stops Per Hour,64.79602970512106,45.65001228236095
+K St / Ivy City,K St / Ivy City,Stops Per Hour,56.18788061566985,53.2921699842898
+Kansas / Eastern,Kansas / Eastern,Stops Per Hour,57.4528294323096,60.33442078754579
+MLK Ave / 4 St SE,MLK Ave / 4 St SE,Stops Per Hour,77.42649826989172,78.5304058456537
+MLK Ave / Bellevue,MLK Ave / Bellevue,Stops Per Hour,81.32655987546754,63.20668333940858
+MacArthur Blvd,MacArthur Blvd,Stops Per Hour,62.159450944449745,61.48961253995723
+Maryland Ave,Maryland Ave,Stops Per Hour,63.2936181568257,68.63448581736999
+Massachusetts Ave,Massachusetts Ave,Stops Per Hour,69.67194271013757,56.77019256492238
+Minnesota Ave / Eastern,Minnesota Ave / Eastern,Stops Per Hour,76.58506025966392,68.16248738865352
+Minnesota Ave / Pennsylvania Ave,Minnesota Ave / Pennsylvania Ave,Stops Per Hour,75.20278816937216,60.16832717513476
+N Capitol St,N Capitol St,Stops Per Hour,50.14361082373971,55.24045540670717
+Naylor Rd - Shepherd Pkwy,Naylor Rd - Shepherd Pkwy,Stops Per Hour,92.84692893202468,53.680341360465526
+Pennsylvania Ave,Pennsylvania Ave,Stops Per Hour,50.83637383470322,48.848464972607125
+Rhode Island Ave / NE,Rhode Island Ave / NE,Stops Per Hour,49.52027691193883,50.314336459867604
+Skyland / Barry Farm,Skyland / Barry Farm,Stops Per Hour,79.2785816238777,71.1604859244812
+Southern Av / Anacostia,Southern Av / Anacostia,Stops Per Hour,89.04780040745399,72.59689441387349
+U St,U St,Stops Per Hour,54.85605928520691,49.8053492657754
+Upper NW,Upper NW,Stops Per Hour,83.78103660694671,61.26167520000048
+Wisconsin Ave,Wisconsin Ave,Stops Per Hour,46.62571990829883,39.28726058783828

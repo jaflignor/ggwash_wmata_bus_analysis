@@ -472,6 +472,7 @@ def aggregate_stats(df, prefix, num_weeks, level="route", corridor_map=None):
         f"{prefix}_min_headway":          ("mean_headway",  "min"),
         f"{prefix}_mean_service_span":    ("service_span",  "mean"),
         f"{prefix}_median_service_speed": ("service_speed", "median"),
+        f"{prefix}_mean_service_speed": ("service_speed", "mean"),
         f"{prefix}_mean_trips":           ("num_trips",     "mean"),
         f"{prefix}_median_trips":         ("num_trips",     "median"),
     }
@@ -539,8 +540,7 @@ def rename_metrics(df):
         "median_trip_duration": "Median Trip Duration (Hours)",
         "total_trips":          "Total Trips",
         "mean_trips":           "Mean Trips",
-        "median_trips":         "Median Trips",
-    }
+        "median_trips":         "Median Trips"    }
     df = df.copy()
     df["metric"] = df["metric"].replace(rename_map)
     return df
@@ -590,15 +590,15 @@ def run_analysis(LEVEL, crosswalk_type, day_type="weekday"):
         corridor_map=corridor_map,
     )
 
-    #pre_change_stats  = route_level_summary_stats(pre_change_feed,  day_type=day_type)
-    #post_change_stats = route_level_summary_stats(post_change_feed, day_type=day_type)
+    pre_change_stats  = route_level_summary_stats(pre_change_feed,  day_type=day_type)
+    post_change_stats = route_level_summary_stats(post_change_feed, day_type=day_type)
     
     #pre_change_stats  = pre_change_stats[pre_change_stats["route_id"].str.startswith(("C", "D"))]
-    #post_change_stats = post_change_stats[post_change_stats["route_id"].str.startswith(("C", "D"))]
+    post_change_stats = post_change_stats[post_change_stats["route_id"].str.startswith(("C", "D"))]
     
     
-    #pre_change_stats.to_csv("_intermediate/pre_change_summary_stats_weekday.csv")
-    #post_change_stats.to_csv("_intermediate/post_change_summary_stats_weekday.csv")
+    pre_change_stats.to_csv("_intermediate/pre_change_summary_stats_weekday.csv")
+    post_change_stats.to_csv("_intermediate/post_change_summary_stats_weekday.csv")
     
     pre_change_stats = pd.read_csv('_intermediate/pre_change_summary_stats_weekday.csv')
     post_change_stats = pd.read_csv('_intermediate/post_change_summary_stats_weekday.csv')
@@ -639,7 +639,7 @@ def run_analysis(LEVEL, crosswalk_type, day_type="weekday"):
     pre_post_comp[[PRE_ID, POST_ID]].drop_duplicates()
     pre_post_comp.groupby([PRE_ID, POST_ID]).size().reset_index(name="count").query("count > 1")
 
-    pre_post_comp.to_csv(f"_intermediate/summary_output_comp_{LEVEL}_{day_type}_{date_str}.csv")
+    #pre_post_comp.to_csv(f"_intermediate/summary_output_comp_{LEVEL}_{day_type}_{date_str}.csv")
 
     drop_cols = ["old_name", "new_name"]
     id_cols   = [PRE_ID, POST_ID]
@@ -671,7 +671,6 @@ def run_analysis(LEVEL, crosswalk_type, day_type="weekday"):
 
     if LEVEL == "corridor":
         diff_long_df_output = diff_long_df[["pre_corridor_id", "post_corridor_id", "metric", "pre_value", "post_value"]].drop_duplicates()
-        # STEP 9: Include day_type in export filename
         diff_long_df_output.to_csv(f"export/bus_comp_{LEVEL}_{day_type}_{date_str}_{crosswalk_type}.csv", index=False)
     else:
         corridor_map = (
@@ -692,41 +691,41 @@ def run_analysis(LEVEL, crosswalk_type, day_type="weekday"):
         diff_long_df_output.to_csv(f"export/bus_comp_{LEVEL}_{day_type}_{date_str}_{crosswalk_type}.csv", index=False)
 
 
-for day_type in ["weekday", "weekend"]:
-#for day_type in ["weekday"]:
+#for day_type in ["weekday", "weekend"]:
+for day_type in ["weekday"]:
     for crosswalk_type in ["augmented"]:
         for LEVEL in ["corridor", "route"]:
             run_analysis(LEVEL, crosswalk_type, day_type=day_type)
 
 
-def load_csvs(directory=".", keyword=None, crosswalk_type=None, day_type=None):
-    files = [
-        f for f in os.listdir(directory)
-        if f.endswith(".csv")
-        and (keyword is None or keyword in f)
-        and (crosswalk_type is None or crosswalk_type in f)
-        and (day_type is None or day_type in f)
-        and date_str in f
-    ]
-    dfs = []
-    for f in files:
-        df = pd.read_csv(os.path.join(directory, f))
-        dfs.append(df)
-    return pd.concat(dfs, ignore_index=True) if dfs else pd.DataFrame()
+# def load_csvs(directory=".", keyword=None, crosswalk_type=None, day_type=None):
+#     files = [
+#         f for f in os.listdir(directory)
+#         if f.endswith(".csv")
+#         and (keyword is None or keyword in f)
+#         and (crosswalk_type is None or crosswalk_type in f)
+#         and (day_type is None or day_type in f)
+#         and date_str in f
+#     ]
+#     dfs = []
+#     for f in files:
+#         df = pd.read_csv(os.path.join(directory, f))
+#         dfs.append(df)
+#     return pd.concat(dfs, ignore_index=True) if dfs else pd.DataFrame()
 
 
-for day_type in ["weekday", "weekend"]:
-#for day_type in ["weekday"]:
-    corridor_df = load_csvs("export", keyword="corridor", crosswalk_type="augmented", day_type=day_type)
-    route_df    = load_csvs("export", keyword="route",    crosswalk_type="augmented", day_type=day_type)
+# #for day_type in ["weekday", "weekend"]:
+# for day_type in ["weekday"]:
+#     corridor_df = load_csvs("export", keyword="corridor", crosswalk_type="augmented", day_type=day_type)
+#     route_df    = load_csvs("export", keyword="route",    crosswalk_type="augmented", day_type=day_type)
 
-    if not corridor_df.empty:
-        #corridor_df = corridor_df.drop(columns=corridor_df.columns[0], errors="ignore")
-        corridor_df.to_csv(f"augmented_corridor_df_{day_type}_{date_str}.csv", index=False)
+#     if not corridor_df.empty:
+#         #corridor_df = corridor_df.drop(columns=corridor_df.columns[0], errors="ignore")
+#         corridor_df.to_csv(f"export/augmented_corridor_df_{day_type}_{date_str}.csv", index=False)
 
-    if not route_df.empty:
-        #route_df = route_df.drop(columns=route_df.columns[0], errors="ignore")
-        route_df.to_csv(f"augmented_route_df_{day_type}_{date_str}.csv", index=False)
+#     if not route_df.empty:
+#         #route_df = route_df.drop(columns=route_df.columns[0], errors="ignore")
+#         route_df.to_csv(f"export/augmented_route_df_{day_type}_{date_str}.csv", index=False)
         
         
         

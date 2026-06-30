@@ -593,7 +593,6 @@ def run_analysis(LEVEL, crosswalk_type, day_type="weekday"):
     pre_change_stats  = route_level_summary_stats(pre_change_feed,  day_type=day_type)
     post_change_stats = route_level_summary_stats(post_change_feed, day_type=day_type)
     
-    #pre_change_stats  = pre_change_stats[pre_change_stats["route_id"].str.startswith(("C", "D"))]
     post_change_stats = post_change_stats[post_change_stats["route_id"].str.startswith(("C", "D"))]
     
     
